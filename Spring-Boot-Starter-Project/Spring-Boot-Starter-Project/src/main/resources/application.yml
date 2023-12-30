@@ -1,0 +1,61 @@
+#server:
+ #   port: 8082
+
+#profiles:
+   # active: qa
+
+---
+
+#spring:
+    #profiles: dev
+    #datasource:
+      #driver-class-name: com.mysql.jdbc.Driver
+   #   username: root
+  #    url: jdbc:mysql://localhost:3306/deptmanagerapp
+    #  password: '123456'
+ #   jpa:
+   #   hibernate:
+     #    ddl-auto: update
+     # show-sql: 'true'
+#welcome:
+   # message: Welcome to SnowFuzzyFlake!!!
+
+#---
+
+#spring:
+ # profiles: qa
+#  datasource:
+  #  driver-class-name: com.mysql.jdbc.Driver
+   # username: root
+   # url: jdbc:mysql://localhost:3306/deptmanagerapp-qa
+  #  password: '123456'
+  #jpa:
+    #hibernate:
+     # ddl-auto: update
+  #  show-sql: 'true'
+#welcome:
+  #message: Welcome to SnowFuzzyFlake!!!
+
+ # management:
+   # endpoints:
+    #  web:
+    #    exposure:
+       #   include:  " * "
+         # exclude: "env,beans"
+
+#---
+
+ # spring:
+ #   profiles: prod
+   # datasource:
+    #  driver-class-name: com.mysql.jdbc.Driver
+   #   username: root
+    #  url: jdbc:mysql://localhost:3306/deptmanagerapp-prod
+   #   password: '123456'
+  #  jpa:
+     # hibernate:
+       # ddl-auto: update
+      #show-sql: 'true'
+  #welcome:
+    #message: Welcome to SnowFuzzyFlake!!!
+
